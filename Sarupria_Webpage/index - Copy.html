@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Sarupria group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/site.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/slidesjs.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+
+  </head>
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col { 
+    display: block;
+    width: 100%;
+  }
+  }
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-right:5px;
+  margin-left:5px;
+}
+.columnExpand {
+  float: center;
+  text-align:center;
+  cursor: pointer;
+  height:auto;
+}
+
+.containerTab {
+  padding: 10px;
+  color: black;
+  text-align:center;
+}
+
+/* Closable button inside the image */
+.closebtnExpand {
+  float: right;
+  color: white;
+  background:orange;
+  font-size: 30px;
+  font-weight:bold;
+  cursor: pointer;
+  }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding:4px;
+  height:auto;
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(246,103,51, 0.5);
+}
+
+
+a {
+  color: orange;
+}
+</style>
+
+<body>
+
+  <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <a href="./index.html" class="navbar-brand">Sarupria group @ Clemson</a>
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" style="height: 1px">
+          <ul class="nav navbar-nav navbar-right">
+	    
+	    <li class="first  ">
+	      <a class="" href="./index.html">Home</a>
+	    </li>
+            
+	    <li class="  ">
+	      <a class="" href="./research.html">Research</a>
+	    </li>
+            
+	    <li class="  ">
+	      <a class="" href="./people.html">People</a>
+	    </li>
+            
+	    <li class="  ">
+	      <a class="" href="./papers.html">Publications</a>
+	    </li>
+            
+	    <li class="">
+	      <a class="" href="./news.html">News</a>
+	    </li>
+
+	    <li class="">
+	      <a class="" href="./gallery.html">Gallery</a>
+	    </li>
+
+        
+        <li class="last" style="margin-right:20px;">
+	      <a class="" href="./others.html">Other</a>
+	    </li>
+            
+	  </ul>
+        </div>
+      </div>
+
+
+   
+   
+   
+
+
+
+<div class="row">
+
+<div style="margin-top:40px"></div>
+  
+    <div class="card">
+    <h1>Computational Molecular Science</h1>
+        <hr>
+        <div class="w3-container">
+          <p style="text-align:center">Sarupria group uses molecular modeling, statistical mechanics and computer simulations to study aqueous, polymeric and biological systems. We develop and use multiscale modeling techniques and enhanced sampling techniques to study challenging problems in molecular simulations.</p>
+          
+    </div>
+    <hr>    
+  
+  <!-- Three columns -->
+
+<div class="" style="">
+
+<div class="row" style="text-align:center;">
+
+<div class="col-sm-4 col-md-4 col-lg-4"> 
+
+<!-- <div class="row" style="margin-left:1px;margin-right:1px;";> -->
+  <div class="columnExpand" onclick="openTab('b1');" style="">
+  <img src="Data/projectDescriptions/RareEvent.png" style="max-width:100%;max-height:150px;" oncontextmenu="return false;"></img>
+  <p style="font-size:100%;">Accessing the inaccessible</p>
+  </div>
+  
+</div>
+
+<div class="col-sm-4 col-md-4 col-lg-4"> 
+  
+  <div class="columnExpand" onclick="openTab('b2');" style="";>
+  <img src="Data/projectDescriptions/MicaWater.png" style="max-width:100%;max-height:150px;" oncontextmenu="return false;">
+  <p style="font-size:100%;">Modeling clouds: Heterogeneous Ice Nucleation</p>
+  </div>
+</div>
+
+<div class="col-sm-4 col-md-4 col-lg-4"> 
+  
+  <div class="columnExpand" onclick="openTab('b3');" style="">
+    <img src="Data/projectDescriptions/GasHydrate.png" style="max-width:100%;max-height:150px;" oncontextmenu="return false;">
+  <p style="font-size:100%;">Modeling Gas Hydrates</p>
+  </div>
+  
+</div>  
+</div>
+    
+<div class="row" style="margin-left:1px;margin-right:1px;";>
+    <div id="b1" class="containerTab" style="display:none;background:white">
+    <span onclick="this.parentElement.style.display='none'" class="closebtnExpand">&times;</span>
+    <h2>Accessing the inaccessible</h2>
+    <p>We developed contour forward flux sampling also developed software SAFFIRE for implementing it. More detials can be found in <a href=./research.html#E1>research section</a>.</p>
+    </div>
+
+    <div id="b2" class="containerTab" style="display:none;background:white">
+    <span onclick="this.parentElement.style.display='none'" class="closebtnExpand">&times;</span>
+    <h2>Modeling Clouds: Heterogenous Ice Nucleation</h2>
+    <p>We study heterogeneous and homogeneous ice nucleation using forward flux sampling. We also use machine learning for crystal structure identification. More detials can be found in <a href=./research.html#E2>research section</a>.</p>
+    </p>
+    </div>
+
+
+    <div id="b3" class="containerTab" style="display:none;background:white">
+    <span onclick="this.parentElement.style.display='none'" class="closebtnExpand">&times;</span>
+    <h2>Modeling Gas Hydrates</h2>
+    <p>We study hydrate nucleation using forward flux sampling. More detials can be found in <a href=./research.html#E3>research section</a>.</p></p>
+    </div>
+</div>
+ <div class="row" style="text-align:center;";>
+
+<div class="col-sm-4 col-md-4 col-lg-4"> 
+
+  <div class="columnExpand" onclick="openTab('b4');" style="">
+    <img src="Data/projectDescriptions/MembraneFouling.png" style="max-width:100%;max-height:150px;" oncontextmenu="return false;">
+  <p style="font-size:100%;">Fouling Resistant Membranes</p>
+  </div>
+</div>
+
+<div class="col-sm-4 col-md-4 col-lg-4"> 
+
+  <div class="columnExpand" onclick="openTab('b5');" style="">
+    <img src="Data/projectDescriptions/Proteins.png" style="max-width:100%;max-height:150px;" oncontextmenu="return false;">
+  <p style="font-size:100%;">Proteins at interfaces</p>
+  </div>
+</div>
+
+<div class="col-sm-4 col-md-4 col-lg-4"> 
+
+  <div class="columnExpand" onclick="openTab('b6');" style="">
+    <img src="Data/projectDescriptions/Enzymes.png" style="max-width:100%;max-height:150px;" oncontextmenu="return false;">
+  <p style="font-size:100%;">Designing Enzymes</p>
+  </div>
+</div>
+</div>
+<!-- Full-width columns: (hidden by default) -->
+
+<div class="row" style="margin-left:1px;margin-right:1px;";>
+
+<div id="b4" class="containerTab" style="display:none;background:white">
+  <span onclick="this.parentElement.style.display='none'" class="closebtnExpand">&times;</span>
+  <h2>Discovering fouling resistant membranes</h2>
+  <p>We study foulant binding on polyamide membranes and contribute to development of a multiscale model to study membrane fouling. More detials can be found in <a href=./research.html#E4>research section</a>.</p>
+</p>
+</div>
+<div id="b5" class="containerTab" style="display:none;background:white">
+  <span onclick="this.parentElement.style.display='none'" class="closebtnExpand">&times;</span>
+  <h2>Proteins at intefaces</h2>
+  <p>We study protein and peptide interactions with graphene and graphene oxide</p>
+</div>
+
+<div id="b6" class="containerTab" style="display:none;background:white">
+  <span onclick="this.parentElement.style.display='none'" class="closebtnExpand">&times;</span>
+  <h2>Designing enzymes</h2>
+  <p>We study the effect of mutations on enzyme activity and flexibility. More detials can be found in <a href=./research.html#E6>research section</a>.</p>
+</div>
+</div>
+</div>
+
+<hr>
+
+ </div>
+</div> 
+
+<div class="row">
+ 
+
+<div style="margin-top:40px"></div>
+<div class="col-sm-3 col-md-3 col-lg-3"> 
+
+  <div class="card">
+  <h2>Tweets</h2>
+        <a class="twitter-timeline" data-width="300" data-height="600" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/SarupriaS?ref_src=twsrc%5Etfw">Tweets by SarupriaS</a> 
+        
+        <div>
+        <a href="https://twitter.com/SarupriaS?ref_src=twsrc%5Etfw" class="twitter-follow-button"  data-show-count="false">Follow @SarupriaS</a>
+        </div>
+        
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+        
+    <hr>  
+   
+</div>
+
+</div>
+
+<div class="col-sm-6 col-md-6 col-lg-6">
+
+<div class="card">
+<div class="row">
+    <h2>Funding agencies</h2>
+    
+    
+    <div class="col-sm-4 col-md-4 col-lg-4"> 
+    <img src="./Data/Pictures/logos/nsf.png" style="width:100%;margin:10px;max-width:100px;" oncontextmenu="return false;">
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4"> 
+    <img src="./Data/Pictures/logos/doe.png" style="width:100%;margin:10px;max-width:100px;" oncontextmenu="return false;">
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4"> 
+    <img src="./Data/Pictures/logos/acsprf.jpg" style="width:100%;margin:10px;max-width:100px;" oncontextmenu="return false;">
+    </div>
+    <hr>
+    
+    </div>
+    <hr>
+  
+    <div class="row">    
+          <h2>Join Sarupria Group</h2>
+          
+          <iframe style="width:90%; height: 450px;margin-left:10px;margin-right:10px;margin-bottom:0px; border: 1px solid #ddd;border-radius: 4px; padding:4px;text-align:center" src="https://www.youtube.com/embed/yi71zEm941I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+          <p style="text-align :center; margin: 10px;word-wrap:break-word">Interested in our work? Please write to Dr. Sarupria at ssarupr@clemson.edu </p>
+          
+<hr>    
+</div>
+</div>
+     
+</div> 
+
+
+<div class="col-sm-3 col-md-3 col-lg-3"> 
+
+<div class="card">
+
+   
+<h2>Recent publications</h2>
+       <div style="text-align:justify">
+       
+       <span style="color:gray;font-size:125%"><b>Advancing Rational Control of Peptide–Surface Complexes</b></span><br>
+       
+       <span style="color: #666666;"> Siva Dasetty and Sapna Sarupria </span><br>
+	      <span style="color: #666666;">XX</span>
+	      <span style="color: #666666;">XX</span>
+	      <span style="color: #666666;">(2021)</span>
+          <span style="color: #666666;">The Journal of Physical Chemisty B</span>
+          <br>
+          <br>
+          
+       <span style="color:gray;font-size:125%"><b>Multivalent Surface Cations Enhance Heterogeneous Freezing of Water on Muscovite Mica</b></span><br>
+       
+       <span style="color: #666666;"> Nurun Nahar Lata, Jiarun Zhou, Pearce Hamilton, Michael Larsen, Sapna Sarupria, and Will Cantrell </span><br>
+	      <span style="color: #666666;">11</span>
+	      <span style="color: #666666;">8682-8689</span>
+	      <span style="color: #666666;">(2020)</span>
+          <span style="color: #666666;">The Journal of Physical Chemisty Letters</span>
+          <br>
+          <br>
+          
+          <span style="color:gray;font-size:125%"><b> A generalized deep learning approach for local structure identification in molecular simulations</b></span><br>
+       
+       <span style="color: #666666;"> RS DeFever, C Targonski, SW Hall, MC Smith, and S Sarupria  </span><br>
+	      <span style="color: #666666;">10</span>
+	      <span style="color: #666666;">7503-7515</span>
+	      <span style="color: #666666;">(2019)</span>
+          <span style="color: #666666;">Chemical Science</span>
+          <br>
+          <br>
+          <a href="./papers.html">More publications..</a> 
+</div>
+   
+
+</div>
+       
+
+</div>
+
+</div>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+
+
+  
+<div class="footer"
+<p align="center" style="color:white;background-color:#F66733;"><b>Sarupria Group, Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC 29634</b></p>
+</div>
+  
+  </body>
+  
+<!-- For collapsible navigation bar -->
+
+<script type='text/javascript' src="./assets/js/jquery.js"></script>
+    <script type='text/javascript' src="./assets/js/jquery.slides.js"></script>
+    <script type='text/javascript' src="./assets/js/bootstrap.js"></script>
+    <script>
+      $(function() {
+        $('#slides').slidesjs({
+          width: 940,
+          height: 376,
+          navigation: {
+           active: false,
+           effect: "fade"
+          },
+          pagination: {
+           active: true,
+           effect: "fade"
+          },
+          play: {
+           active: true,
+           effect: "fade",
+           // [string] Can be either "slide" or "fade".
+           interval: 5000,
+           // [number] Time spent on each slide in milliseconds.
+           auto: true,
+           // [boolean] Start playing the slideshow on load.
+           swap: true,
+           // [boolean] show/hide stop and play buttons
+           pauseOnHover: false,
+           // [boolean] pause a playing slideshow on hover
+           restartDelay: 2500
+           // [number] restart delay on inactive slideshow
+          }
+        });
+      });
+    </script>
+
+</html>
+
