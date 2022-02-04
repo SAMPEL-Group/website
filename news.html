@@ -69,6 +69,45 @@
   {
   box-shadow: 0 0 2px 1px rgba(246,103,51, 0.5);
   }
+
+
+/* sytle for dropdown menu */
+ul{
+        padding: 0;
+        list-style: none;
+        background: #7a0019;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #7a0019;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #7a0019;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 200%; /* Set width of the dropdown */
+        background: #fff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+
 </style>
   
   
@@ -93,6 +132,15 @@
 	    <li class="  ">
         
 	      <a class="" href="./research.html">Research</a>
+        <ul class="dropdown">
+          <li><a href="./research.html#IceNucleation">Ice Nucleation</a></li>
+          <li><a href="./research.html#RareEvent">Rare Event Simulations</a></li>
+          <li><a href="./research.html#Gas Hydrates">Gas Hydrates</a></li>
+          <li><a href="./research.html#Membrane Fouling">Membrane Fouling</a></li>
+          <li><a href="./research.html#Enzymes">Enzymes</a></li>
+          <li><a href="./research.html#Peptide Self-Assembly">Peptide Self-Assembly</a></li>
+          <li><a href="./research.html#Stabilization of Vaccine">Stabilization of Vaccine</a></li>
+      </ul>
 	    </li>
             
 	    <li class="  ">
@@ -155,7 +203,7 @@
 
 <div class="row">    
   <div class="col-sm-3 col-md-3 col-lg-3 text-center";><a class="example-image-link" href="Data/Pictures/news/2021-FirstYears.jpeg" data-lightbox="example-set1"><img class="example-image" src="Data/Pictures/news/2021-FirstYears.jpeg" style="width:70%;margin:10px;max-height:250px;margin-bottom:0px;" oncontextmenu="return false;" alt="" /></a></div>
-  <div class="col-sm-9 col-md-9 col-lg-9"><h5 style="font-weight:bold;font-size:150%;margin:5px;">Sarupria group welcomes 5 new members!</h5>
+  <div class="col-sm-9 col-md-9 col-lg-9"><h5 style="font-weight:bold;font-size:150%;margin:5px;">Sarupria group welcomes 5 new graduate students!</h5>
     <hr style="margin-top:1px;margin-bottom:1px;margin-right:20px;margin-left:5px;">
     <p style="margin:5px;margin-bottom:1px;">
     Welcome to our new first years, Porhouy (PH), Jonathan, Naomi, Youchi and Praveen.  

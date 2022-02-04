@@ -47,6 +47,44 @@ img:hover {
 }
 
 
+/* sytle for dropdown menu */
+ul{
+        padding: 0;
+        list-style: none;
+        background: #7a0019;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #7a0019;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #7a0019;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 200%; /* Set width of the dropdown */
+        background: #fff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+
+
 </style>
 
       <div class="navbar navbar-default navbar-fixed-top">
@@ -70,6 +108,15 @@ img:hover {
 	    <li class="  ">
         <!-- <img src="Data/Pictures/logos/research.png"class="navbar-brand"></img> -->
 	      <a class="" href="./research.html">Research</a>
+        <ul class="dropdown">
+          <li><a href="./research.html#IceNucleation">Ice Nucleation</a></li>
+          <li><a href="./research.html#RareEvent">Rare Event Simulations</a></li>
+          <li><a href="./research.html#Gas Hydrates">Gas Hydrates</a></li>
+          <li><a href="./research.html#Membrane Fouling">Membrane Fouling</a></li>
+          <li><a href="./research.html#Enzymes">Enzymes</a></li>
+          <li><a href="./research.html#Peptide Self-Assembly">Peptide Self-Assembly</a></li>
+          <li><a href="./research.html#Stabilization of Vaccine">Stabilization of Vaccine</a></li>
+      </ul>
 	    </li>
             
 	    <li class="  ">
