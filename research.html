@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/x-icon" href="Data/Pictures/logos/favicon.ico">
-    <title>SAMPEL Group</title>
+    <title>Research | SAMPEL Group</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="./assets/css/bootstrap.css" media="screen">
@@ -49,6 +49,60 @@ a {
 }
 
 
+/* sytle for dropdown menu */
+ul{
+        padding: 0;
+        list-style: none;
+        background: #7a0019;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #7a0019;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #7a0019;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 200%; /* Set width of the dropdown */
+        background: #fff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+
+
+/* Arrow Styling */
+.arrow {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 }
@@ -78,11 +132,26 @@ a {
 	    </li>
             
 	    <li class="  ">
-	      <a class="" href="./research.html">Research</a>
+        <a class="" href="./research.html">Research &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
+        <ul class="dropdown">
+          <li><a href="./research.html#IceNucleation">Ice Nucleation</a></li>
+          <li><a href="./research.html#RareEvent">Rare Event Simulations</a></li>
+          <li><a href="./research.html#Gas Hydrates">Gas Hydrates</a></li>
+          <li><a href="./research.html#Membrane Fouling">Membrane Fouling</a></li>
+          <li><a href="./research.html#Enzymes">Enzymes</a></li>
+          <li><a href="./research.html#Peptide Self-Assembly">Peptide Self-Assembly</a></li>
+          <li><a href="./research.html#Stabilization of Vaccine">Stabilization of Vaccine</a></li>
+      </ul>
 	    </li>
             
 	    <li class="  ">
-	      <a class="" href="./people.html">People</a>
+        <a class="" href="./people.html">People &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
+        <ul class="dropdown">
+          <li><a href="./people.html#PI">Dr. Sapna Sarupria</a></li>
+          <li><a href="./people.html#PostDocs">Postdoctoral Associates</a></li>
+          <li><a href="./people.html#GraduateStudents">Graduate Students</a></li>
+          <li><a href="./people.html#Alumni">Alumni</a></li>
+      </ul>
 	    </li>
             
 	    <li class="  ">
@@ -109,7 +178,7 @@ a {
 
 
 <div class="container">
-  <!-- For the headline after the banner. This is to establish a link to the places I want to go in the page.-->
+  <!-- For the headline after the banner. This is to establish a link to the places I want to go in the page.
   <style>
     ul {
       list-style-type: none;
@@ -154,8 +223,8 @@ a {
     </li>
   </ul>
   <hr style="padding-bottom: 10px;">
-  <!-- end  -->
-
+  end 
+ -->
 
 <div class="card">
 <!-- <div href="E2" class="row" style="background: rgb(212, 201, 158);background: rgba(212, 201, 158, 0.3); margin-top:0px;"> -->
