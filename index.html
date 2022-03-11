@@ -37,6 +37,31 @@ body, html {
   }
   }
 
+
+  .figure {
+    position: static;
+	  width: 90%;
+}
+
+.figure .figcaption {
+    position: absolute;
+    top:50%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    text-align:center;
+    font-size:3vw;
+    z-index:1;
+    height:10%;
+    }
+
+/* .figure img {
+    display:block;
+    width: 10%;
+} */
+
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -120,11 +145,16 @@ ul{
   -webkit-transform: rotate(45deg);
 }
 
-<!-- /* Carousel Styling */ -->
-<!-- .carousel-inner img { -->
-
-        <!-- max-height: 350px; -->
-    <!-- } -->
+/* Carousel Styling
+.carousel-item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  height: 40rem;
+  margin: 0 auto;
+} */
 
 </style>
 
@@ -205,26 +235,74 @@ ul{
 	
 <!-- Carousel --> 
 	
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide" data-interval="false">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="la.jpg" alt="Los Angeles">
+    <div class="figure">
+    <img src="Data/Pictures/home/2022-UMNRecruit-V16.pptx.png"; style="width:90%;margin-left: 10%;"></img>
+    </div>
     </div>
 
     <div class="item">
-      <img src="chicago.jpg" alt="Chicago">
+      <div class="figure">
+        <img src="Data/projectDescriptions/IceNucleation.png"; style="width:90%;margin-left: 10%;"></img>
+        <div class="figcaption">Ice Nucleation</div>
+      </div>
     </div>
 
     <div class="item">
-      <img src="ny.jpg" alt="New York">
+      <div class="figure">
+        <div class="figcaption">Rare Event Simulations</div>
+        <img src="Data/projectDescriptions/RareEvent.png" ; style="width: fit-content;"></img>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="figure">
+        <div class="figcaption">Gas Hydrates</div>
+        <img src="Data/projectDescriptions/GasHydrate.png"; style="width: fit-content;"></img>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="figure">
+        <div class="figcaption">Polyamide Desalination Membrane</div>
+        <img src="Data/projectDescriptions/polyamide.jpg"; style="width:90%;margin-left: 10%;height: 80%;"></img>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="figure">
+        <div class="figcaption">Enzymes</div>
+        <img src="Data/projectDescriptions/Enzymes.png"; style="width:100%;margin-left: 5%"></img>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="figure">
+        <div class="figcaption">Peptide Self-Assembly</div>
+        <img src="Data/Pictures/home/Peptide_Self_Assembly.png"; style="width: fit-content;"></img>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="figure">
+        <div class="figcaption">Stabilization of Vaccine</div>
+        <img src="Data/projectDescriptions/Stabilization_Vaccine.jpeg"; style="width: 70%; margin-left: 15%;"></img>
+      </div>
     </div>
   </div>
 
@@ -257,9 +335,16 @@ ul{
           </div>
           
           <div class="row">
-          <h4> ASCEND Group Research </h4>
-          <iframe style="width:100%; height: 250px; border: 1px solid #ddd;border-radius: 4px; padding:4px;text-align:center" src="https://www.youtube.com/embed/oTUxYJN_UQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
+          <h4> About Dr. Sapna Sarupria </h4>
+          <!-- <iframe style="width:50%; height: 250px; border: 1px solid #ddd;border-radius: 4px; padding:4px;text-align:center" src="https://www.youtube.com/embed/oTUxYJN_UQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <img src="Data/Pictures/home/Sarupria.jpeg"; style="width:45%;margin:10px;float:left;";></img>
+          <div class="col-sm-1 col-md-1 col-lg-1 ";>
+          <div class="col-sm-1 col-md-1 col-lg-1">
+            <p style="font-size:125%;margin:5px;">Associate Professor, Department of Chemistry</p>
+            <p style="font-size:100%;margin:5px;">Dr. Sarupria received her master’s degree from Texas A & M University where her thesis focused on thermodynamic modeling of clathrate hydrates of gas mixtures formed in the presence of electrolyte solutions. She obtained her doctorate from Rensselaer Polytechnic Institute, where she studied pressure effects on water-mediated interactions and proteins. She was a post-doctoral researcher in Princeton University and studied hydrate and ice nucleation using advanced path sampling techniques.</p>
+            <p style="font-size:100%;margin:5px;">For more information, <a href="./people.html#PI">click here</a></p></div>
+          </div>
+        </div>
           </div>
 
           <div class="col-sm-6 col-md-6 col-lg-6">
