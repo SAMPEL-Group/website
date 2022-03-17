@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="./assets/css/slidesjs.css" media="screen">
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
- 
+    <link rel="stylesheet" href="assets/lightbox/css/lightbox.css">
+    <script src="assets/lightbox/js/lightbox-plus-jquery.min.js"></script>
 
   </head>
 <style>
@@ -221,120 +222,29 @@ ul{
     <h1 style="color:#7a0019">(SAMPEL)</h1>
         <hr>
 
-        <div class="col-sm-7 col-md-7 col-lg-7"> 
-        <div class="row">
-          <!-- Carousel --> 
-        <div id="myCarousel" class="carousel slide" data-interval="false" style="height: 340px; ">
-          
-          <!-- Indicators
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-          </ol> -->
+    <!-- Poster Picture -->
+    <div class="col-sm-7 col-md-7 col-lg-7"> 
+    <div class="row">
+      <a class="example-image-link" href="Data/Pictures/home/2022-UMNRecruit-V16.jpeg" data-lightbox="example-set1"><img src="Data/Pictures/home/2022-UMNRecruit-V16.jpeg"></img></a>
+      
+    </div>
+    </div>
         
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-            
-              <img src="Data/Pictures/home/2022-UMNRecruit-V16.pptx.jpg"></img>
-              
-            </div>
-        
-            <div class="item">
-              
-              <img src="Data/Pictures/home/IceNucleation.png"></img>
-              <div class="carousel-caption">
-                <h5>Ice Nucleation</h5>
-              </div>
-            </div>
-        
-            <div class="item">
-              
-              <img src="Data/Pictures/home/RareEvent.png"></img>
-              <div class="carousel-caption">
-                <h5>Rare Event Simulations</h5>
-              </div>
-              
-            </div>
-        
-            <div class="item">
-              
-              <img src="Data/projectDescriptions/GasHydrate.png"></img>
-              <div class="carousel-caption">
-                <h5>Gas Hydrate</h5>
-              </div>
-              
-            </div>
-        
-            <div class="item">
-              
-              <img src="Data/projectDescriptions/polyamide.jpg"></img>
-              <div class="carousel-caption">
-                <h5>Polyamide Desalination Membrane</h5>
-              </div>
-              
-            </div>
-        
-            <div class="item">
-              
-              <img src="Data/projectDescriptions/Enzymes.png"></img>
-              <div class="carousel-caption">
-                <h5>Enzymes</h5>
-              </div>
-              
-            </div>
-        
-            <div class="item">
-              
-              <img src="Data/Pictures/home/Peptide_Self_Assembly.png"></img>
-              <div class="carousel-caption">
-                <h5>Peptide Self-Assembly</h5>
-              </div>
-              
-            </div>
-        
-            <div class="item">
-              
-              <img src="Data/Pictures/home/Stabilization_of_Vaccine.png"></img>
-              <div class="carousel-caption">
-                <h5>Stabilization of Vaccine</h5>
-              </div>
-              
-            </div>
-          </div>
-        
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-        </div>
-        </div>
+    <!-- Brief research description next to poster -->
+    <div class="col-sm-5 col-md-5 col-lg-5"> 
+    <p style="text-align:justify;font-size:110%; margin-top: 15%;">We use molecular simulations and statistical mechanics to study condensed phase phenomena. We also develop and apply rare event path sampling techniques. Our current projects include ice and hydrate nucleation, protein and peptide on surfaces, fouling on polyamide membranes, and enzymatic breakdown of polymers. Our projects are motivated by applications in energy, biology and sustainable technologies.
+      <p>
+    <p style="text-align:justify;font-size:110%;"><a href="./research.html">Learn more about our research... </a></p>
 
-        <div class="col-sm-5 col-md-5 col-lg-5"> 
-        <p style="text-align:justify;font-size:110%;">We use molecular simulations and statistical mechanics to study condensed phase phenomena. We also develop and apply rare event path sampling techniques. Our current projects include ice and hydrate nucleation, protein and peptide on surfaces, fouling on polyamide membranes, and enzymatic breakdown of polymers. Our projects are motivated by applications in energy, biology and sustainable technologies.
-          <p>
-        <p style="text-align:justify;font-size:110%;"><a href="./research.html">Learn more about our research... </a></p>
-
-        </div>
+    </div>
         
     </div>   
      
+    <!-- About Dr. S section -->
     <hr>
     <div class="row">
  
-      <h2 style="color:#7a0019">About Dr. Sapna Sarupria</h2>
+      <h2 style="color:#7a0019; text-align: center;">About Dr. Sapna Sarupria</h2>
       <p>&nbsp;</p>
         <div class="col-sm-4 col-md-4 col-lg-4 text-center";>
         <img src="Data/Pictures/mugshots/Sarupria.png"; style="width:80%;margin-top: 10px;margin-left: 40px;float:left;";></img></div>
@@ -343,10 +253,11 @@ ul{
           <h4><b style="font-size:100%;margin-left:5px;text-align:left;">Associate Professor, Department of Chemistry</b></h4>
           <p>&nbsp;</p>
           <p style="font-size:100%;margin-left:5px;text-align:justify;">Dr. Sarupria received her master’s degree from Texas A & M University where her thesis focused on thermodynamic modeling of clathrate hydrates of gas mixtures formed in the presence of electrolyte solutions. She obtained her doctorate from Rensselaer Polytechnic Institute, where she studied pressure effects on water-mediated interactions and proteins. She was a post-doctoral researcher in Princeton University and studied hydrate and ice nucleation using advanced path sampling techniques.</p>
-          </div>
+        </div>
          
     </div>
 
+    <!-- About the group section -->
     <div class="row">
           <hr> <!-- add the dividing line -->
           <h2 style="color:#7a0019">About the SAMPEL Group</h2>
@@ -375,12 +286,8 @@ ul{
           
 </div> 
 
-<!-- <div class="row">
-          <p style="text-align :center; margin: 10px;word-wrap:break-word; font-size:125%;">Interested in joining our lab? Please write to Dr. Sarupria at <a href="mailto:sarupria@umn.edu"> sarupria@umn.edu </a> </p>
-<hr>           
-          
-</div> -->
-          
+ <!--Recent publications and Tweets Section  -->
+
 <hr> 
 <div class="row">
 <div class="col-sm-6 col-md-6 col-lg-6"> 
