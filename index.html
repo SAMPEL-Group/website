@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/x-icon" href="Data/Pictures/logos/favicon.ico">
-    <title>Home | SAMPEL Group</title>
+    
+    <title>Home | The SAMPEL Group</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="./assets/css/bootstrap.css" media="screen">
@@ -14,10 +16,13 @@
     <link rel="stylesheet" href="./assets/css/slidesjs.css" media="screen">
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
- 
+    <link rel="stylesheet" href="assets/lightbox/css/lightbox.css">
+    <script src="assets/lightbox/js/lightbox-plus-jquery.min.js"></script>
 
   </head>
 <style>
+
+.mySlides {display:none;}  
 
 body, html {
   height: 100%;
@@ -34,6 +39,7 @@ body, html {
     width: 100%;
   }
   }
+
 
 /* Style the counter cards */
 .card {
@@ -55,7 +61,7 @@ margin-left:20px;
   padding:4px;
   width:100%;
   height:auto;
-  margin:40px;
+  margin:0px;
 }
 
 
@@ -118,6 +124,28 @@ ul{
   -webkit-transform: rotate(45deg);
 }
 
+/* Carousel Styling */
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:340px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom:20%;
+  left: 0%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+  text-align:center;
+  font-size:3vw;
+  z-index:1;
+  height:10%;
+}
+
 </style>
 
 <body>
@@ -145,7 +173,7 @@ ul{
           <li><a href="./research.html#IceNucleation">Ice Nucleation</a></li>
           <li><a href="./research.html#RareEvent">Rare Event Simulations</a></li>
           <li><a href="./research.html#Gas Hydrates">Gas Hydrates</a></li>
-          <li><a href="./research.html#Membrane Fouling">Membrane Fouling</a></li>
+          <li><a href="./research.html#Polyamide Desalination Membrane">Polyamide Desalination Membrane</a></li>
           <li><a href="./research.html#Enzymes">Enzymes</a></li>
           <li><a href="./research.html#Peptide Self-Assembly">Peptide Self-Assembly</a></li>
           <li><a href="./research.html#Stabilization of Vaccine">Stabilization of Vaccine</a></li>
@@ -196,50 +224,84 @@ ul{
     <h1 style="color:#7a0019">(SAMPEL)</h1>
         <hr>
 
-          <p style="text-align:justify;font-size:125%;">We use molecular simulations and statistical mechanics to study condensed phase phenomena. We also develop and apply rare event path sampling techniques. Our current projects include ice and hydrate nucleation, protein and peptide on surfaces, fouling on polyamide membranes, and enzymatic breakdown of polymers. Our projects are motivated by applications in energy, biology and sustainable technologies.<p>
-        <hr>
-     </div>   
+    <!-- Poster Picture -->
+    <div class="col-sm-7 col-md-7 col-lg-7"> 
+    <div class="row">
+      
+      <!-- <a class="example-image-link" href="Data/Pictures/home/cover_image.png" data-lightbox="example-set1"><img src="Data/Pictures/home/cover_image.png"></img></a> -->
+      <a class="example-image-link" href="Data/Pictures/home/2022-UMNRecruit-V16.jpeg" data-lightbox="example-set1"><img src="Data/Pictures/home/2022-UMNRecruit-V16.jpeg"></img></a>
+    </div>
+    </div>
+        
+    <!-- Brief research description next to poster -->
+    <div class="col-sm-5 col-md-5 col-lg-5"> 
+    <p style="text-align:justify;font-size:125%; margin-top: 5px;">We use molecular simulations and statistical mechanics to study condensed phase phenomena. We also develop and apply rare event path sampling techniques. Our current projects include ice and hydrate nucleation, protein and peptide on surfaces, fouling on polyamide membranes, and enzymatic breakdown of polymers. Our projects are motivated by applications in energy, biology and sustainable technologies.
+      <p>
+    <p style="text-align:justify;font-size:110%;"><a href="./research.html">Learn more about our research... </a></p>
+
+    </div>
+        
+    </div>   
      
-  
-<div class="row">
+    <!-- About Dr. S section -->
+    <hr>
+    <div class="row">
  
+      <h2 style="color:#7a0019; text-align: center;">About Dr. Sapna Sarupria</h2>
+      <p>&nbsp;</p>
+        <div class="col-sm-4 col-md-4 col-lg-4 text-center";>
+        <img src="Data/Pictures/mugshots/Sarupria.png"; style="width:80%;margin-top: 10px;margin-left: 40px;float:left;";></img></div>
+        
+          <div class="col-sm-8 col-md-8 col-lg-8">
+          <h4><b style="font-size:100%;margin-left:5px;text-align:left;">Associate Professor, Department of Chemistry</b></h4>
+          <p style="font-size:125%;margin-left:5px;text-align:justify;">Dr. Sarupria received her master’s degree from Texas A & M University where her thesis focused on thermodynamic modeling of clathrate hydrates of gas mixtures formed in the presence of electrolyte solutions. She obtained her doctorate from Rensselaer Polytechnic Institute, where she studied pressure effects on water-mediated interactions and proteins. She was a post-doctoral researcher in Princeton University and studied hydrate and ice nucleation using advanced path sampling techniques.</p>
+        </div>
+         
+    </div>
+
+    <!-- About the group section -->
+    <div class="row">
+          <hr> <!-- add the dividing line -->
           <h2 style="color:#7a0019">About the SAMPEL Group</h2>
+          <!-- add space -->
+          <p>&nbsp;</p> 
           
           <div class="col-sm-6 col-md-6 col-lg-6">
+
           <div class="row">
-          <h4> Learn about our group's research and mentoring philosophy </h4>
-          <iframe style="width:100%; height: 250px; border: 1px solid #ddd;border-radius: 4px; padding:4px;text-align:center" src="https://www.youtube.com/embed/yi71zEm941I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4> Learn about our group's research and mentoring philosophy</h4>
+              <iframe style="width:100%; height: 250px; border: 1px solid #ddd;border-radius: 4px; padding:4px;text-align:center" src="https://www.youtube.com/embed/yi71zEm941I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           
           <div class="row">
-          <h4> Recent press coverage of our work </h4>
-          <iframe style="width:100%; height:250px;border: 1px solid #ddd;border-radius: 4px; padding:4px;text-align:center" src="https://www.youtube.com/embed/BtMZ5lz15VM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p style="text-align :center; margin-top: 80px;font-size:125%;">Interested in joining our lab? </p>
+            <p style="text-align :center; font-size:125%;">Please write to Dr. Sarupria at <a href="mailto:sarupria@umn.edu"> sarupria@umn.edu </a> </p>
+            
           </div>
+
           </div>
+
           <div class="col-sm-6 col-md-6 col-lg-6">
-          <h4> We value diversity, inclusion and equity </h4>
+          <h4>We value diversity, inclusion and equity</h4>
           <img src="Data/Pictures/home/webinar.jpg" style="width:99%;margin:10px;"></img>
           </div>
           
 </div> 
-<div class="row">
-          <p style="text-align :center; margin: 10px;word-wrap:break-word; font-size:125%;">Interested in joining our lab? Please write to Dr. Sarupria at <a href="mailto:sarupria@umn.edu"> sarupria@umn.edu </a> </p>
-<hr>           
-          
-</div>
-          
-  
-     
+
+ <!--Recent publications and Tweets Section  -->
+
+<hr> 
 <div class="row">
 <div class="col-sm-6 col-md-6 col-lg-6"> 
 
-   
 <h2 style="color:#7a0019">Recent publications</h2>
-       <div style="text-align:justify">
+<p>&nbsp;</p>
+
+       <div style="text-align:left">
        
         <span style="font-size:125%"><b> The Middle Science: Traversing Scale In Complex Many-Body Systems </b></span><br>
        
-        <span> Aurora E. Clark, Henry Adams, Rigoberto Hernandez, Anna I. Krylov, Anders M. N. Niklasson, Sapna Sarupria, Yusu Wang, Stefan M. Wild, and Qian Yang </span><br>
+        <span> Aurora E. Clark, Henry Adams, Rigoberto Hernandez, Anna I. Krylov, Anders M. N. Niklasson, Sapna Sarupria, Yusu Wang, Stefan M. Wild, and Qian Yang </span>
         <span>7</span>
         <span>1271-1287</span>
         <span>(2021)</span>
@@ -259,9 +321,9 @@ ul{
           <br>
 
          
-       <span style="font-size:125%"><b>Rational engineering of low temperature activity in thermoalkalophilic Geobacillus thermocatenulatus lipase </b></span><br>
+       <span style="font-size:120%; align-items: center";><b>Rational engineering of low temperature activity in thermoalkalophilic Geobacillus thermocatenulatus lipase </b></span><br>
        
-       <span> Weigao Wang, Siva Dasetty , Sapna Sarupria, and Mark Blenner </span><br>
+       <span> Weigao Wang, Siva Dasetty , Sapna Sarupria, and Mark Blenner </span>
 	      <span>174</span>
 	      <span>Page N.A.</span>
 	      <span>(2021)</span>
@@ -271,7 +333,7 @@ ul{
        
        <span style="font-size:125%"><b>Advancing Rational Control of Peptide–Surface Complexes</b></span><br>
        
-       <span> Siva Dasetty and Sapna Sarupria </span><br>
+       <span> Siva Dasetty and Sapna Sarupria </span>
 	      <span>10</span>
 	      <span>2644-2657</span>
 	      <span>(2021)</span>
