@@ -1,5 +1,3 @@
-<U+FEFF>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,28 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/x-icon" href="Data/Pictures/logos/favicon.ico">
-    <title>SAMPEL Group</title>
+    
+    <title>Home | The SAMPEL Group</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="./assets/css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./assets/css/site.css" media="screen">
     <link rel="stylesheet" href="./assets/css/slidesjs.css" media="screen">
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css" media="screen">
-  </head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/lightbox/css/lightbox.css">
+    <script src="assets/lightbox/js/lightbox-plus-jquery.min.js"></script>
 
+  </head>
 <style>
 
+.mySlides {display:none;}  
 
-a {
-  color: #7a0019;
+body, html {
+  height: 100%;
+  margin: 0;
+  padding-top:0px;
+  padding-bottom:0px;
 }
 
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col { 
+    display: block;
+    width: 100%;
+  }
+  }
+
+
+/* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 100%;
   margin: auto;
-  text-align: left;
   border: 1px solid #7a0019;
+  text-align:center;
+}
+.row{
+margin-right:20px;
+margin-left:20px;
+
+}
+
+.card img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding:4px;
+  width:100%;
+  height:auto;
+  margin:0px;
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px #7a0019(0, 0, 0, 0.5);
+}
+
+
+a {
+  color: #7a0019;
 }
 
 /* sytle for dropdown menu */
@@ -81,12 +123,33 @@ ul{
   -webkit-transform: rotate(45deg);
 }
 
+/* Carousel Styling */
 
+.carousel-inner > .item > img {
+  width:100%;
+  height:340px;
+}
 
+.carousel-caption {
+  position: absolute;
+  bottom:20%;
+  left: 0%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+  text-align:center;
+  font-size:3vw;
+  z-index:1;
+  height:10%;
+}
 
 </style>
- <body>
-       <div class="navbar navbar-default navbar-fixed-top">
+
+<body>
+
+  <div class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
           <a href="https://cse.umn.edu/chem"><img src="Data/Pictures/logos/umn-yellow-M.png" class="navbar-brand"></img></a>
           <a href="./index.html" class="navbar-brand">The SAMPEL Group</a>
@@ -102,6 +165,7 @@ ul{
 	    <li class="first  ">
 	      <a class="" href="./index.html">Home</a>
 	    </li>
+            
 	    <li class="  ">
         <a class="" href="./research.html">Research &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
         <ul class="dropdown">
@@ -116,7 +180,7 @@ ul{
 	    </li>
             
 	    <li class="  ">
-	      <a class="" href="./people.html">People &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
+        <a class="" href="./people.html">People &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
         <ul class="dropdown">
           <li><a href="./people.html#PI">Dr. Sapna Sarupria</a></li>
           <li><a href="./people.html#PostDocs">Postdoctoral Associates</a></li>
@@ -137,10 +201,10 @@ ul{
 	      <a class="" href="./gallery.html">Gallery</a>
 	    </li>
 
-      <li class="">
-        <a class="" href="./STMS-Seminar.html">STMS</a>
-    </li>
-      
+        <li class="">
+            <a class="" href="./STMS-Seminar.html">STMS</a>
+        </li>
+
         <li class="last" style="margin-right:20px;">
 	      <a class="" href="./others.html">Other</a>
 	    </li>
@@ -150,32 +214,35 @@ ul{
       </div>
 
 
-<!-- Page content -->
+   
+   
+   
+
+<div class="" style="margin-top:100px"> </div>
 <div class="container">
-
-<div class="card">
-      
+<div class="card" style="margin-top:40px">
+    <!-- STMS Seminar -->
 <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12" style="margin-left:20px;margin-left:5px;">
-    <h5 style="font-weight:bold;font-size:150%;margin-left:5px;">Power Hour @ Liquids GRC Presentation </h5>
-      <hr style="margin-top:1px;margin-bottom:1px;margin-right:10px;margin-left:5px;">
-      <p style="font-size:100%;margin-right:20px;margin-bottom:1px;margin-left:5px;">
-      The presentation and discussion from the 2019 Liquids GRC can be viewed <a href="Data/2019_LiquidsGRC_PowerHour.pptx" target="_blank">here</a>. Feel free to contact me at <a href="mailto:sarupria@umn.edu">sarupria@umn.edu</a> if you have any questions regarding this presentation. You are welcome to adapt this for your own use as long as you cite and reference the appropriate sources! 
-      </p>
-    </div> 
+  <h2 style="color:#7a0019; text-align: center;"><b>Statistical Thermodynamics & Molecular Simulations (STMS) Seminar Series </b></h4>
+  <hr>
+  <p style="text-align: justify;">These seminar series, organized by <a href="./people.html#PI"> Dr. Sapna Sarupria </a>(Dept. of Chemistry, UMN) and <a href="https://haji-akbari.yale.edu/">Dr. Amir Haji-Akbari </a>(Dept. of Chemical and Environmental Engineering, Yale U) are aimed 
+    at providing a virutal platform for sharing scientific research in the area of statistical mechanics, molecular simulations, and computational materials science.</p>
+  <p>&nbsp;</p> 
+  <p>Link to STMS Seminar Schedule: <a href="https://sites.google.com/view/stms2021/schedule?authuser=0">https://sites.google.com/view/stms2021/schedule?authuser=0</a></p>
 </div>
-
-<hr style="margin-left:5px;margin-right:20px;">
-        
 
 </div>
 </div>
 
+
+<!-- Footer -->
+  
 <div class="footer"
-<p align="center" style="color:white;background-color:#7a0019;"><b>SAMPEL Group, Department of Chemistry, University of Minnesota, Minneapolis, MN 55455</b></p></div>
-
+<p align="center" style="color:white;background-color:#7a0019;"><b>SAMPEL Group, Department of Chemistry, University of Minnesota, Minneapolis, MN 55455</b></p>
+</div>
+  
   </body>
-
+  
 <!-- For collapsible navigation bar -->
 
 <script type='text/javascript' src="./assets/js/jquery.js"></script>
@@ -213,5 +280,5 @@ ul{
       });
     </script>
 
-
 </html>
+
