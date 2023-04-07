@@ -1,2 +1,0 @@
-# Sarupria_Webpage
-
