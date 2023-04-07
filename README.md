@@ -8,7 +8,7 @@ Updated by: Porhouy (PH) Minh
 
 ## Types of Updates
 
-The types of updates that should be included on the website are publication news, group news, and research updates. The format for each update will be described in detail from section II to VI. 
+The types of updates that should be included on the website are publication news, group news, and research updates. The format for each update will be described in detail from section I to VI. 
 
 1) **Publication updates** concern new publications by any member of the group. This update would appear at two places on the website, one in the publication page and another in the news page. 
 2) **Group updates** concern group outings, group pictures, additional group members, new members' bios, and REUs. Group outings and pictures will appear in the gallery page of the website, while any other news will appear in the news page. As for the bios, they will appear in the people page of our website. 
