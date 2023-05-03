@@ -1,5 +1,5 @@
 # [Website Updates Best Practices](https://docs.google.com/document/d/16CKtHjKzPj2LLqS0tFQlL2jCTr1Omqot/edit)
-Last Updated: 10-12-2022 <br/>
+Last Updated: 05-02-2023 <br/>
 Updated by: Porhouy (PH) Minh
 
 **NOTE:** <br/>
