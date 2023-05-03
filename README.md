@@ -88,3 +88,5 @@ To update your research description or picture, please follow the steps below:
 4) Push updates to the “Development” branch first (to check with other webmasters and Dr. Sarupria)
 5) Send a short and concise update to the website channel in Slack
 6) Merge “Development” branch with “Main” branch and add descriptive explanation of updates
+
+#### Guidelines for editing news.html and papers.html: [Link](https://docs.google.com/document/d/16CKtHjKzPj2LLqS0tFQlL2jCTr1Omqot/edit)
