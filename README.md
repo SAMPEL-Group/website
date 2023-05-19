@@ -15,7 +15,7 @@ The types of updates that should be included on the website are publication news
 3) **Research updates** concern new information or objectives with the current projects or introduction of new projects to the group. This update will appear on the research page.
 
 ### I. Publication Updates
-For updates regarding new publications, please add the information as formatted below to the document[ “Group-New-Publications”](https://docs.google.com/document/d/1pgxeaMHtInkjudmMBUPGrDMKS3hh_7SpVVWQLvpx7No/edit). Once you have finished adding the information, please slack the webmasters accordingly. <br/>
+For updates regarding new publications, please add the information as formatted below to the document[ “Group-New-Publications”](https://docs.google.com/document/d/1pgxeaMHtInkjudmMBUPGrDMKS3hh_7SpVVWQLvpx7No/edit?usp=share_link). Once you have finished adding the information, please slack the webmasters accordingly. <br/>
  
 **FORMAT:**
 
@@ -54,7 +54,7 @@ For updates regarding recent news about the group (i.e., new papers being publis
 ### III. Group Pictures Updates
 For updates regarding group pictures, please create a folder for the event with the naming convention: YYMMDD-EVENTNAME in 
 
-[Sarupria-Group-UMN/GroupWebsite/sarupriagroup.github.io/Data/pictures/GroupPictures/YYYY/](https://drive.google.com/drive/u/0/folders/169D0ws69Q0orcba2Qd7UQKqVskeXfvTk) 
+[Sarupria-Group-UMN/GroupWebsite/sarupriagroup.github.io/Data/pictures/GroupPictures/YYYY/](https://drive.google.com/drive/folders/10EkO4okCMuqs5m4YYrKo_SPF8C9tTCg1?usp=sharing) 
 
 Then add each picture for the event as formatted below to your folder: 
 
@@ -67,15 +67,15 @@ Once you have finished, please slack the webmasters accordingly
 ### IV. Individual Profile/Bios Updates (!!Applicable to New Group Members!!)
 Please follow the steps below to update your bios on our website: 
 
-1) Go to the google drive folder at [Sarupria-Group-UMN/GroupWebsite/Mugshots/](https://drive.google.com/drive/u/0/folders/169c-iK5Ownjo4DQcTRsIXFpzrEx4slci)
-2) Open [“Bios.docx”](https://docs.google.com/document/d/1Bgc6u7CPnqRwjgWLsrhVi1sZADCCzKh1/edit?usp=share_link&ouid=114755699523492321653&rtpof=true&sd=true) and add your information to the document (following the examples of other students)
+1) Go to the google drive folder at [Sarupria-Group-UMN/GroupWebsite/.../mugshots/](https://drive.google.com/drive/folders/10EKj7Um3qI-yHPwQ8IPoIgl_TiA2gSyQ?usp=sharing)
+2) Open [“Bios.docx”](https://docs.google.com/document/d/11v5kfybkcqNM7XrBN1PpUBNZVCoIfKf5/edit?usp=share_link&ouid=114755699523492321653&rtpof=true&sd=true) and add your information to the document (following the examples of other students)
 3) Add your picture in the folder **in png or jpg (< 1 MB)**
 4) Once you have finished, please slack the webmasters accordingly
 
 ### V. Research Updates
 To update your research description or picture, please follow the steps below: 
 
-1) Go to the google drive folder at [Sarupria-Group-UMN/GroupWebsite/Research_Description_Review](https://drive.google.com/drive/u/0/folders/1zw-LJxLza1TrTtW2Cbut26tN3PhdJT_a)
+1) Go to the google drive folder at [Sarupria-Group-UMN/GroupWebsite/Research_Description_Review](https://drive.google.com/drive/folders/1zw-LJxLza1TrTtW2Cbut26tN3PhdJT_a?usp=sharing)
 2) Create a google doc in the folder with the name of your research as the title (Ex: NameOfProject-Review) 
 3) Paste your research description and picture in the document 
 4) Notify Dr. Sarupria about your updates by specifying what you edit and where you had put your edits
