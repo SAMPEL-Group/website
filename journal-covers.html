@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="Data/Pictures/logos/favicon.ico">
+    
+    <title>Journal Covers | The SAMPEL Group</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/site.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/slidesjs.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/lightbox/css/lightbox.css">
+    <script src="assets/lightbox/js/lightbox-plus-jquery.min.js"></script>
+
+  </head>
+<style>
+
+.mySlides {display:none;}  
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col { 
+    display: block;
+    width: 100%;
+  }
+  }
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: auto;
+  border: 1px solid #7a0019;
+  text-align:center;
+}
+.row{
+margin-right:20px;
+margin-left:20px;
+
+}
+
+.card img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding:4px;
+  width:100%;
+  height:auto;
+  margin:0px;
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px #7a0019 (0, 0, 0, 0.5);
+}
+
+
+a {
+  color: #7a0019;
+}
+
+/* sytle for dropdown menu */
+ul{
+        padding: 0;
+        list-style: none;
+        background: #7a0019;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #7a0019;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #7a0019;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 200%; /* Set width of the dropdown */
+        background: #fff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+
+/* Arrow Styling */
+.arrow {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Carousel Styling */
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:340px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom:20%;
+  left: 0%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+  text-align:center;
+  font-size:3vw;
+  z-index:1;
+  height:10%;
+}
+
+</style>
+
+<body>
+
+  <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <a href="https://cse.umn.edu/chem"><img src="Data/Pictures/logos/umn-yellow-M.png" class="navbar-brand"></img></a>
+          <a href="./index.html" class="navbar-brand">The SAMPEL Group</a>
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" style="height: 1px">
+          <ul class="nav navbar-nav navbar-right">
+	    
+	    <li class="first  ">
+	      <a class="" href="./index.html">Home</a>
+	    </li>
+            
+	    <li class="  ">
+        <a class="" href="./research.html">Research &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
+        <ul class="dropdown">
+          <li><a href="./research.html#IceNucleation">Ice Nucleation</a></li>
+          <li><a href="./research.html#RareEvent">Rare Event Simulations</a></li>
+          <li><a href="./research.html#Gas Hydrates">Gas Hydrates</a></li>
+          <li><a href="./research.html#Polyamide Desalination Membrane">Polyamide Desalination Membrane</a></li>
+          <li><a href="./research.html#Enzymes">Enzymes</a></li>
+          <li><a href="./research.html#Peptide Self-Assembly">Peptide Self-Assembly</a></li>
+          <li><a href="./research.html#Stabilization of Vaccine">Stabilization of Vaccine</a></li>
+      </ul>
+	    </li>
+            
+	    <li class="  ">
+        <a class="" href="./people.html">People &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
+        <ul class="dropdown">
+          <li><a href="./people.html#PI">Dr. Sapna Sarupria</a></li>
+          <li><a href="./people.html#PostDocs">Postdoctoral Associates</a></li>
+          <li><a href="./people.html#GraduateStudents">Graduate Students</a></li>
+          <li><a href="./people.html#Alumni">Alumni</a></li>
+      </ul>
+	    </li>
+            
+	    <li class="  ">
+	      <a class="" href="./papers.html">Publications</a>
+	    </li>
+            
+	    <li class="">
+	      <a class="" href="./news.html">News</a>
+	    </li>
+
+	    <li class="">
+	      <a class="" href="./gallery.html">Gallery</a>
+	    </li>
+
+      <li class="">
+	      <a class="" href="./journal-covers.html">Journal Covers</a>
+	    </li>
+
+        <li class="">
+            <a class="" href="./initiatives.html">Initiatives</a>
+        </li>
+
+        <li class="last" style="margin-right:20px;">
+	      <a class="" href="./others.html">Other</a>
+	    </li>
+            
+	  </ul>
+        </div>
+      </div>
+
+<!-- Box Starts Here -->
+<div class="container">
+<!-- Space Betwen the Box and the Banner -->
+<div class="card" style="margin-top:100px;">
+    
+  <!-- Title: Journal Cover -->   
+  
+  <p style="color: #7a0019; font-size:200%;margin-bottom:10px; margin-top: 10px;"> Journal Covers </p>
+  <hr style="border:2px solid #7a0019 ;border-radius: 1px;margin-left:20px;margin-right:20px;margin-top:1px;;font-weight:bold">  
+  <!-- Container Starts -->
+  <div class="row" style="margin-top:20px;margin-bottom:20px">
+    
+    <!-- 2023 MSDE GTL Cover -->
+    <div class="col-sm-3 col-md-3 col-lg-3 text-center";>
+      
+      <a class="example-image-link" href="Data/Pictures/journalcovers/2023-Dasetty-Zajac-MSDE.png" data-lightbox="example-set5"><img class="example-image" src="Data/Pictures/journalcovers/2023-Dasetty-Zajac-MSDE.png" style="width:80%;margin:10px;max-height:250px;border-radius:4px;border:4px solid #777677; box-shadow:5px 10px #ffcc33" oncontextmenu=" false;" alt="" /></a>    
+      <div class="caption" style="text-align:center;font-weight:bold"> Dasetty, Zajac, Sarupria, MSDE </div>
+    
+    </div>
+          
+    <!-- 2022 JCP Practical Guide Cover -->
+    <div class="col-sm-3 col-md-3 col-lg-3 text-center";>
+      
+      <a class="example-image-link" href="Data/Pictures/journalcovers/2022-Steven-JCP-JournalCover.jpeg" data-lightbox="example-set4"><img class="example-image" src="Data/Pictures/journalcovers/2022-Steven-JCP-JournalCover.jpeg" style="width:80%;margin:10px;max-height:250px;border-radius:4px;border:4px solid #777677; box-shadow:5px 10px #ffcc33" oncontextmenu=" false;" alt="" /></a>    
+        <a class="example-image-link" href="Data/Pictures/journalcovers/2022-Steven-JCP-CoverArt.png" data-lightbox="example-set4"></a>
+      <div class="caption" style="text-align:center;font-weight:bold"> Hall, Leines, Sarupria, Rogal, JCP </div>
+    
+    </div>
+      
+    <!-- 2021 JPCB Peptide on Surface Cover -->
+    <div class="col-sm-3 col-md-3 col-lg-3 text-center";>
+      
+      <a class="example-image-link" href="Data/Pictures/journalcovers/2021-Dasetty-JPCB-Cover.jpg" data-lightbox="example-set3"><img class="example-image" src="Data/Pictures/journalcovers/2021-Dasetty-JPCB-Cover.jpg" style="width:80%;margin:10px;max-height:250px;border-radius:4px;border:4px solid #777677; box-shadow:5px 10px #ffcc33" oncontextmenu=" false;" alt="" /></a>    
+      <div class="caption" style="text-align:center;font-weight:bold"> Dasetty, Sarupria, JPCB </div>
+    
+    </div>
+    
+    <!-- 2019 ChemSci PointNet Cover -->
+    <div class="col-sm-3 col-md-3 col-lg-3 text-center";>
+      
+      <a class="example-image-link" href="Data/Pictures/journalcovers/2019-DeFever-ChemSci-Cover.png" data-lightbox="example-set2"><img class="example-image" src="Data/Pictures/journalcovers/2019-DeFever-ChemSci-Cover.png" style="width:80%;margin:10px;max-height:250px;border-radius:4px;border:4px solid #777677; box-shadow:5px 10px #ffcc33" oncontextmenu=" false;" alt="" /></a>    
+        <a class="example-image-link" href="Data/Pictures/journalcovers/2019-DeFever-ChemSci-Art.jpg" data-lightbox="example-set2"></a>    
+      <div class="caption" style="text-align:center;font-weight:bold"> DeFever, Hall, Sarupria, ChemSci </div>
+    
+    </div>
+     
+    <!-- 2013 PCCP Cover  -->
+    <div class="col-sm-3 col-md-3 col-lg-3 text-center";>
+      
+      <a class="example-image-link" href="Data/Pictures/journalcovers/2013-Ke-Sarupria-PCCP-Cover.png" data-lightbox="example-set1"><img class="example-image" src="Data/Pictures/journalcovers/2013-Ke-Sarupria-PCCP-Cover.png" style="width:80%;margin:10px;max-height:250px;border-radius:4px;border:4px solid #777677; box-shadow:5px 10px #ffcc33" oncontextmenu=" false;" alt="" /></a>    
+        <a class="example-image-link" href="Data/Pictures/journalcovers/2013-Ke-Sarupria-PCCP-art.jpg" data-lightbox="example-set1"></a>    
+      <div class="caption" style="text-align:center;font-weight:bold"> Bhattacharya, Geitner, Sarupria, Ke, PCCP </div>
+    
+    </div>
+  
+  <!-- Container Ends Here -->
+  </div>
+
+<!-- Box Ends Here -->
+</div>       
+</div>
+   
+
+
+
+<!-- Footer -->
+  
+<div class="footer"
+<p align="center" style="color:white;background-color:#7a0019;"><b>SAMPEL Group, Department of Chemistry, University of Minnesota, Minneapolis, MN 55455</b></p>
+</div>
+  
+  </body>
+  
+<!-- For collapsible navigation bar -->
+
+<script type='text/javascript' src="./assets/js/jquery.js"></script>
+    <script type='text/javascript' src="./assets/js/jquery.slides.js"></script>
+    <script type='text/javascript' src="./assets/js/bootstrap.js"></script>
+    <script>
+      $(function() {
+        $('#slides').slidesjs({
+          width: 940,
+          height: 376,
+          navigation: {
+           active: false,
+           effect: "fade"
+          },
+          pagination: {
+           active: true,
+           effect: "fade"
+          },
+          play: {
+           active: true,
+           effect: "fade",
+           // [string] Can be either "slide" or "fade".
+           interval: 5000,
+           // [number] Time spent on each slide in milliseconds.
+           auto: true,
+           // [boolean] Start playing the slideshow on load.
+           swap: true,
+           // [boolean] show/hide stop and play buttons
+           pauseOnHover: false,
+           // [boolean] pause a playing slideshow on hover
+           restartDelay: 2500
+           // [number] restart delay on inactive slideshow
+          }
+        });
+      });
+    </script>
+
+</html>
+
