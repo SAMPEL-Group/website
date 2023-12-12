@@ -116,7 +116,7 @@ ul{
     }
     ul li a:hover{
         color: #7a0019;
-        background: #939393;
+        background: #f6eea8;
     }
     ul li ul.dropdown{
         min-width: 200%; /* Set width of the dropdown */
@@ -149,41 +149,47 @@ ul{
 /* Style the button that is used to open and close the collapsible content */
 
 .collapsible {
-    background-color: #777;
+    background-color: #7a0019;
     color: white;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    padding: 10px;
+    width: 95%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
-    font-size: 15px;
+    font-size: 30px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #5a0113;
   }
   
 .collapsible:after {
     content: '\002B';
+    margin-top: 0.5%;
+    font-size: 70%;
     color: white;
     font-weight: bold;
     float: right;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
   
 .active:after {
-    content: "\2212";
+    content: "\002D";
   }
   
   /* Style the collapsible content. Note: hidden by default */
 .content {
+    width: 95%;
+    margin: 2.5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #f8f4d7;
   }
   </style>
   
@@ -585,553 +591,170 @@ ul{
 <div style="margin-top:10px;text-align:center"><h2>Alumni</h2></div> 
 <hr style="border:1px solid #7a0019;border-radius: 1px;margin-left:10px;margin-right:10px;margin-top:1px;;font-weight:bold">
 
-<div style="margin-top:10px;text-align:center;"><h3>PhD</h3></div> 
-<hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
-
-
-<!-- Row 1 - PhDs -->
-
-<div class="row" style="text-align:center;">
-
-<!-- Sina Chiniforoush-->
-
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
-
-
-  <div class="row">
-      <div style="text-align:center"><img src="Data/Pictures/mugshots/Chiniforoush-2.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-  </div>    
-  <div class="row" style="margin-left:10px;margin-right:10px">
-       
-  <div>
-    <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Sina Chiniforoush</h2>
-    <hr style="margin-top:1px;margin-bottom:1px">
-  </div>
+<div style="margin-top:10px;text-align:center;">
   
-        <p style="font-size:100%;margin-left:10px;">PhD in Chemistry, University of Minnesota</p>
-        <!-- <p style="font-size:100%;margin-left:10px;"><u>Position after graduation:</u></p> -->
-        <!-- <p style="margin-left:10px;"> Staff Engineer at Kelaca </p> -->
-  
-        <div style="margin-left:10px;margin-top:10px;">
-        <button class="btn"><a href="https://www.linkedin.com/in/sina-chiniforoush-717554259/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-        </div>
+  <!-- PhD Alums -->
+  <button class="collapsible";>PhD</button>
+    <div class="content">
+
+      <!-- Sina Chiniforoush -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Sina Chiniforoush:</b> PhD in Chemistry, University of Minnesota, 2023  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/sina-chiniforoush-717554259/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <!-- Jiarun Zhou -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Jiarun Zhou:</b> PhD in Chemical and Biomolecular Engineering, Clemson University, 2023  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/jiarun-zhou-40537760/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <!-- Ryan DeFever -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Ryan DeFever:</b> PhD in Chemical and Biomolecular Engineering, Clemson University, 2019  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/ryan-defever-17b302179/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+        <button class="btn"><a href="https://twitter.com/rsdefever", target="_blank"><i class="fa fa-twitter"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: Postdoctoral Researcher at University of Notre Dame
+      </p><hr style="border-color: #010101;">
+
+      <!-- Siva -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Siva Dasetty:</b> PhD in Chemical and Biomolecular Engineering, Clemson University, 2019  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/sivadasetty/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: Postdoctoral Researcher at University of Chicago
+      </p><hr style="border-color: #010101;">
+
+      <!-- Brit Glatz -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Brittany Glatz:</b> PhD in Chemical and Biomolecular Engineering, Clemson University, 2018  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/brittany-glatz-62a5a4169/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: Staff Engineer at Kelaca
+      </p><hr style="border-color: #010101;">
+
     </div>
-  
-  </div>
+    <hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
 
-<!-- Jiarun Zhou -->
+    <!-- MS Alums -->
+    <button class="collapsible";>MS</button>
+    <div class="content">
 
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
+      <!-- Youchi Zhang -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Youchi Zhang:</b> MS in Chemical Engineering and Material Science, University of Minnesota, 2023  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/sina-chiniforoush-717554259/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
 
-
-  <div class="row">
-      <div style="text-align:center"><img src="Data/Pictures/mugshots/1-Zhou.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-  </div>    
-  <div class="row" style="margin-left:10px;margin-right:10px">
-       
-  <div>
-    <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Jiarun Zhou</h2>
-    <hr style="margin-top:1px;margin-bottom:1px">
-  </div>
-  
-        <p style="font-size:100%;margin-left:10px;">PhD in Chemical and Biomolecular Engineering, Clemson University</p>
-        <!-- <p style="font-size:100%;margin-left:10px;"><u>Position after graduation:</u></p> -->
-        <!-- <p style="margin-left:10px;"> Staff Engineer at Kelaca </p> -->
-  
-        <div style="margin-left:10px;margin-top:10px;">
-        <button class="btn"><a href="https://www.linkedin.com/in/jiarun-zhou-40537760/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-        </div>
     </div>
-  
-  </div>
+    <hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
 
+    <!-- Postdoc Alums -->
+    <button class="collapsible";>Postdoc</button>
+    <div class="content">
 
-  <!-- Ryan DeFever -->
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered" > 
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-Ryan.JPG"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>  
+      <!-- Ernesto -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Ernesto Cortes-Morales:</b> Chemistry, University of Minnesota, 2021-2023 ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/ernesto-carlos-cortes-morales-3b866025/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
 
-<div class="row" style="margin-left:10px;margin-right:10px;">
+      <!-- Neetu -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Neetu Singh Yadav:</b> Chemistry, University of Minnesota, 2021-2023 ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/neetu-singh-69610446/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <!-- Linkel -->
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Linkel Boateng:</b> Chemical and Biomolecular Engineering, Clemson University, 2016-2017  
+      </p><hr style="border-color: #010101;">
+
+    </div>
+    <hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
+
+    <!-- Undergrad Alums -->
+    <button class="collapsible";>Undergraduate</button>
+    <div class="content">
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> John Barrows:</b> BS in Biochemistry, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/john-barrows-4aab031ab/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: PhD Student at Medical University of South Carolina
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Luke Hyunsik Rhym:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/luke-rhym-14586b41/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: PhD Student at Massachusetts Institute of Technology
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Stephen Cotty:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/stephencotty/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Danielle Jacobs:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/danielle-jacobs-k/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: Naval Officer and Power School Instructor with US Navy
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b> Walter Hanger (Judge):</b> BS in Computer Science, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/walter-hanger/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Brandon Alverson:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/brandon-alverson-2878791b2/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>David Barton:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/david-barton-1b560088/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Dylan Bruckner:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/dylanbruckner/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: PhD Student at Rensselaer Polytechnic Institute
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Waring Hills:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/waring-hills-748692110/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p>
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <u>Position after Graduation</u>: Nuclear Engineer for Naval Sea Systems Command (NAVSEA)
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Kamryn Kant:</b> BS in Chemical and Biomolecular Engineering, Clemson University  ||  
+        <button class="btn" style="size: 50%;"><a href="https://www.linkedin.com/in/kamryn-kant-192958135/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
+      </p><hr style="border-color: #010101;">
+
+      <p style="text-align: left; margin-top: 20px; font-size: 150%; font-family: Cambria;">
+        <b>Aarin Henning:</b> BS in Chemical and Biomolecular Engineering, Clemson University 
+      </p><hr style="border-color: #010101;">
+
+    </div>
+    <hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
+
     
-    <div style="text-align:center">
-    <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Ryan DeFever</h2>
-    <hr style="margin-top:1px;margin-bottom:1px;margin-left:5px;margin-right:5px;">
-    </div>
-
-      <p style="font-size:100%;margin-left:10px;">PhD in Chemical and Biomolecular Engineering, Clemson University</p>
-      <p style="font-size:100%;margin-left:10px;"><u>Position after graduation:</u></p>
-      <p style="margin-left:10px;"> Posdoctoral Researcher at University of Notre Dame</p>
-      
-      <div style="margin-left:10px;margin-top:10px;">
-      <button class="btn"><a href="https://www.linkedin.com/in/ryan-defever-17b302179/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      <button class="btn"><a href="https://twitter.com/rsdefever", target="_blank"><i class="fa fa-twitter"></i></a></button>
-      </div>
- 
- </div>
-
-
-</div>  
-
-<!-- Siva Dasetty -->
-
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-SivaDasetty.JPG"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-
-<div class="row" style="margin-left:10px;margin-right:10px;">
- 
-<div>
-<h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Siva Dasetty</h2>
-<hr style="margin-top:1px;margin-bottom:1px">
-</div>
-
-      <p style="font-size:100%;margin-left:10px;">PhD in Chemical and Biomolecular Engineering, Clemson University</p>
-      <p style="font-size:100%;margin-left:10px;"><u>Position after graduation:</u></p>
-      <p style="margin-left:10px;"> Posdoctoral Researcher at University of Chicago</p>
-      
-      <div style="margin-left:10px;margin-top:10px;">
-      <button class="btn"><a href="https://www.linkedin.com/in/sivadasetty/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      </div>
-</div>
-
-</div>
-
-<!-- Brittany Glatz -->
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-BrittanyGlatz.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-<div class="row" style="margin-left:10px;margin-right:10px">
-     
-<div>
-  <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Brittany Glatz</h2>
-  <hr style="margin-top:1px;margin-bottom:1px">
-</div>
-
-      <p style="font-size:100%;margin-left:10px;">PhD in Chemical and Biomolecular Engineering, Clemson University</p>
-      <p style="font-size:100%;margin-left:10px;"><u>Position after graduation:</u></p>
-      <p style="margin-left:10px;"> Staff Engineer at Kelaca </p>
-
-      <div style="margin-left:10px;margin-top:10px;">
-      <button class="btn"><a href="https://www.linkedin.com/in/brittany-glatz-62a5a4169/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      </div>
-  </div>
-
 </div> 
-      
-
-
-<div style="margin-top:10px;text-align:center;"><h3>MS</h3></div> 
-<hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
-
-<!-- Row 1.5 - MS -->
-
-<div class="row" style="text-align:center;">
-
-<!-- Youchi Zhang -->
-
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
-
-
-  <div class="row">
-      <div style="text-align:center"><img src="Data/Pictures/mugshots/Zhang.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-  </div>    
-  <div class="row" style="margin-left:10px;margin-right:10px">
-       
-  <div>
-    <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Youchi Zhang</h2>
-    <hr style="margin-top:1px;margin-bottom:1px">
-  </div>
-  
-        <p style="font-size:100%;margin-left:10px;">MS in Chemical Engineering and Material Science, University of Minnesota</p>
-        <!-- <p style="font-size:100%;margin-left:10px;"><u>Position after graduation:</u></p> -->
-        <!-- <p style="margin-left:10px;"> Staff Engineer at Kelaca </p> -->
-  
-        <!-- <div style="margin-left:10px;margin-top:10px;"> -->
-        <!-- <button class="btn"><a href="https://www.linkedin.com/in/sina-chiniforoush-717554259/", target="_blank"><i class="fa fa-linkedin"></i></a></button> -->
-        </div>
-    </div>
-  
-  </div>
-
-
-
-<!-- Row 2 - Postdocs-->
-
-<div style="margin-top:10px;text-align:center;"><h3>Postdoc</h3></div> 
-<hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
-
-
-<div class="row" style="text-align:center;">
-
-<!-- Linkel Boaten -->
-
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-LinkelBoateng.JPG"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>   
-
-<div class="row" style="margin-left:10px;margin-right:10px">
-     
-<div>
-      <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Linkel Boateng</h2>
-      <hr style="margin-top:1px;margin-bottom:1px">
-      <div style="margin-left:10px;margin-top:10px;">
-        <button class="btn"><a href="https://www.linkedin.com/in/linkel-k-boateng-phd-13b78026/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      </div>
-</div>
-
-</div> 
-</div>
-
-<!-- Neetu Singh Yadav -->
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
-
-
-  <div class="row">
-      <div style="text-align:center"><img src="Data/Pictures/mugshots/Neetu.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-  </div>   
-  
-  <div class="row" style="margin-left:10px;margin-right:10px">
-       
-  <div>
-        <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Neetu Singh Yadav</h2>
-        <hr style="margin-top:1px;margin-bottom:1px">  
-        <div style="margin-left:10px;margin-top:10px;">
-          <button class="btn"><a href="https://www.linkedin.com/in/neetu-singh-69610446/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-        </div>
-  </div>
-  
-  </div> 
-  </div>
-
-<!-- Ernesto Cortes-Morales -->
-<div class="col-sm-3 col-md-3 col-lg-3 col-centered"> 
-
-
-  <div class="row">
-      <div style="text-align:center"><img src="Data/Pictures/mugshots/cortes-morales.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-  </div>   
-  
-  <div class="row" style="margin-left:10px;margin-right:10px">
-       
-  <div>
-        <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Ernesto Cortes-Morales</h2>
-        <hr style="margin-top:1px;margin-bottom:1px">
-    
-        <div style="margin-left:10px;margin-top:10px;">
-          <button class="btn"><a href="https://www.linkedin.com/in/ernesto-carlos-cortes-morales-3b866025/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-        </div>
-  </div>
-  
-  </div> 
-  </div>
-
-
-
-</div>
-
-
-
-</div>
-
-<!-- Row 3 - Undergrads -->
-
-
-<div style="margin-top:10px;text-align:center;"><h3>Undergraduate</h3></div> 
-<hr style="margin-top:1px;margin-bottom:1px;margin-left:10px;margin-right:10px;">
-
-
-<div class="row" style="float:none;display:inline-block;">
-
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/jbarrows.png"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-
-<div class="row" style="margin-left:5px;margin-right:5px;">
- 
-<div><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">John Barrows</h2>
-<hr style="margin-top:1px;margin-bottom:1px">
-
-
-<p style="font-size:100%;margin:5px;">BS in Biochemistry</p>
-      <p style="font-size:100%;margin:5px;"><u>Position after graduation:</u></p>
-      <p style="margin:5px;">PhD student at Medical University of South Carolina</p>
-      
-</div>
-</div>
-
-
-</div>
-
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-LukeRhym.JPG"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-<div class="row" style="margin-left:5px;margin-right:5px">
-     
-<div><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Luke Hyunsik Rhym</h2>
-      <hr style="margin-top:1px;margin-bottom:1px">
-      <p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-      <p style="font-size:100%;margin:5px;"><u>Position after graduation:</u></p>
-      <p style="margin:5px;">PhD student at Massachusetts Institute of Technology</p>
-      <div style="margin-left:5px;margin-top:10px;">
-      <button class="btn"><a href="https://www.linkedin.com/in/luke-rhym-14586b41/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      </div>
-  </div>
-
-</div> 
-      
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-StephenCotty.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>  
-
-<div class="row" style="margin-left:5px;margin-right:5px;">
-    
-    <div style="text-align:center"><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Stephen Cotty</h2>
-      <hr style="margin-top:1px;margin-bottom:1px;margin-left:5px;margin-right:5px;">
-    </div>
-
-<p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-      
-      <div style="margin-left:5px;margin-top:10px;">
-      <button class="btn"><a href="https://www.linkedin.com/in/stephencotty/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      </div>
- 
- </div>
-
-
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-DanielleJacobs.JPG"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>  
-
-<div class="row" style="margin-left:5px;margin-right:5px;">
-    
-    <div style="text-align:center"><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Danielle Jacobs</h2>
-      <hr style="margin-top:1px;margin-bottom:1px;margin-left:5px;margin-right:5px;">
-    </div>
-
-    <p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-
-      <p style="font-size:100%;margin:5px;"><u>Position after graduation:</u></p>
-      <p style="margin:5px;">Naval Officer and Power School Instructor with US Navy</p>
- </div>
-
-
-</div>  
-
-
-</div>
-
-<div style="margin-bottom:20px;"></div> 
-
-<!-- Row 4 -->
-
-<div class="row">
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-Judge.JPG"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-<div class="row" style="margin-left:5px;margin-right:5px">
-     
-    <div>
-      <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Walter Hanger (Judge)</h2>
-      <hr style="margin-top:1px;margin-bottom:1px">
-      
-  </div>
-  <p style="font-size:100%;margin:5px;">BS in Computer Engineering</p>
-  
-     <div style="margin-left:5px;margin-top:10px;">
-     <button class="btn"><a href="https://www.linkedin.com/in/walter-hanger/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-     </div>
- 
-  
-</div> 
-      
-</div>
-
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/male.png"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-<div class="row" style="margin-left:5px;margin-right:5px">
-     
-    <div>
-      <h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Brandon Alverson</h2>
-      <hr style="margin-top:1px;margin-bottom:1px">
-      
-  </div>
-  <p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-  
-</div> 
-      
-</div>
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/1-DavidBarton.JPG"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>  
-
-<div class="row" style="margin-left:5px;margin-right:5px;">
-    
-    <div style="text-align:center"><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">David Barton</h2>
-      <hr style="margin-top:1px;margin-bottom:1px;margin-left:5px;margin-right:5px;">
-    </div>
-
-    <p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-     
-     <div style="margin-left:5px;margin-top:10px;">
-     <button class="btn"><a href="https://www.linkedin.com/in/david-barton-1b560088/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-     </div>
- 
- </div>
-
-
-</div>  
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/male.png"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-
-<div class="row" style="margin-left:5px;margin-right:5px;">
- 
-<div><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Dylan Bruckner</h2>
-<hr style="margin-top:1px;margin-bottom:1px">
-
-
-      <p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-      
-      <p style="font-size:100%;margin:5px;"><u>Position after graduation:</u></p>
-      <p style="margin:5px;"> PhD Student at Rensselaer Polytechnic Institute</p>
-      
-      <div style="margin-left:5px;margin-top:10px;">
-      <button class="btn"><a href="https://www.linkedin.com/in/dylanbruckner/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      </div>
-</div>
-</div>
-
-
-</div>
-
-</div>
-
-<div style="margin-bottom:20px;"></div> 
-
-
-<!-- Row 5 -->
-
-<div class="row">
-
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-<!-- Warring Hills -->
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/whills.png"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>    
-<div class="row" style="margin-left:5px;margin-right:5px">
-     
-<div><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Waring Hills</h2>
-      <hr style="margin-top:1px;margin-bottom:1px">
-
-
-<p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-      <p style="font-size:100%;margin:5px;"><u>Position after graduation:</u></p>
-      <p style="margin:5px;">Nuclear Engineer for Naval Sea Systems Command (NAVSEA)</p>
-      <div style="margin-left:5px;margin-top:10px;">
-      <button class="btn"><a href="https://www.linkedin.com/in/waring-hills-748692110/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-      </div>
-  </div>
-
-</div> 
-
-<div style="margin-bottom:20px;"></div> 
-
-
-</div>
-
-<!-- Kamryn Kant -->
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/Kant.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>  
-
-<div class="row" style="margin-left:5px;margin-right:5px;">
-    
-    <div style="text-align:center"><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Kamryn Kant</h2>
-      <hr style="margin-top:1px;margin-bottom:1px;margin-left:5px;margin-right:5px;">
-    </div>
-
-    <p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-     
-     <div style="margin-left:5px;margin-top:10px;">
-     <button class="btn"><a href="https://www.linkedin.com/in/kamryn-kant-192958135/", target="_blank"><i class="fa fa-linkedin"></i></a></button>
-     </div>
- 
- </div>
-
-
-</div>  
-
-<!-- Aarin Henning -->
-<div class="col-sm-3 col-md-3 col-lg-3"> 
-
-
-<div class="row">
-    <div style="text-align:center"><img src="Data/Pictures/mugshots/Henning.jpg"; style="width:80%;margin:10px;max-height:250px";></img></div>
-</div>  
-
-<div class="row" style="margin-left:5px;margin-right:5px;">
-    
-    <div style="text-align:center"><h2 style="color:#7a0019;font-size:200%;margin:5px;text-align:center;">Aarin Henning</h2>
-      <hr style="margin-top:1px;margin-bottom:1px;margin-left:5px;margin-right:5px;">
-    </div>
-
-    <p style="font-size:100%;margin:5px;">BS in Chemical and Biomolecular Engineering</p>
-     
-     
- </div>
-
-
-</div>  
+<!-- <hr style="margin-top:1px;margin-bottom: 1px;margin-left:10px;margin-right:10px;"> -->
 
 <div style="margin-bottom:20px;"></div> 
 
@@ -1190,5 +813,21 @@ ul{
         });
       });
     </script>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
     
 </html>
