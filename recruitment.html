@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="Data/Pictures/logos/favicon.ico">
+    
+    <title>Recruitment | The SAMPEL Group</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/site.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/slidesjs.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/lightbox/css/lightbox.css">
+    <script src="assets/lightbox/js/lightbox-plus-jquery.min.js"></script>
+
+  </head>
+<style>
+
+.mySlides {display:none;}  
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col { 
+    display: block;
+    width: 100%;
+  }
+  }
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: auto;
+  border: 1px solid #7a0019;
+  text-align:center;
+}
+.row{
+margin-right:20px;
+margin-left:20px;
+
+}
+
+.card img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding:4px;
+  width:100%;
+  height:auto;
+  margin:0px;
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px #7a0019 (0, 0, 0, 0.5);
+}
+
+
+a {
+  color: #7a0019;
+}
+
+/* sytle for dropdown menu */
+ul{
+        padding: 0;
+        list-style: none;
+        background: #7a0019;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #7a0019;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #7a0019;
+        background: #f6eea8;
+    }
+    ul li ul.dropdown{
+        min-width: 200%; /* Set width of the dropdown */
+        background: #fff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+
+/* Arrow Styling */
+.arrow {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Carousel Styling */
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:340px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom:20%;
+  left: 0%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+  text-align:center;
+  font-size:3vw;
+  z-index:1;
+  height:10%;
+}
+
+</style>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+            <a href="https://cse.umn.edu/chem"><img src="Data/Pictures/logos/umn-yellow-M.png" class="navbar-brand"></img></a>
+            <a href="./index.html" class="navbar-brand">The SAMPEL Group</a>
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            </div>
+            <div class="navbar-collapse collapse" style="height: 1px">
+            <ul class="nav navbar-nav navbar-right">
+            
+            <li class="first  ">
+            <a class="" href="./index.html">Home</a>
+            </li>
+                
+            <li class="  ">
+            <a class="" href="./research.html">Research &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
+            <ul class="dropdown">
+            <li><a href="./research.html#IceNucleation">Ice Nucleation</a></li>
+            <li><a href="./research.html#RareEvent">Rare Event Simulations</a></li>
+            <li><a href="./research.html#Gas Hydrates">Gas Hydrates</a></li>
+            <li><a href="./research.html#Polyamide Desalination Membrane">Polyamide Desalination Membrane</a></li>
+            <li><a href="./research.html#Enzymes">Enzymes</a></li>
+            <li><a href="./research.html#Peptide Self-Assembly">Peptide Self-Assembly</a></li>
+            <li><a href="./research.html#Stabilization of Vaccine">Stabilization of Vaccine</a></li>
+        </ul>
+            </li>
+                
+            <li class="  ">
+            <a class="" href="./people.html">People &nbsp;<i class="arrow down" style="margin-bottom: 4%;"></i></a>
+            <ul class="dropdown">
+            <li><a href="./people.html#PI">Dr. Sapna Sarupria</a></li>
+            <li><a href="./people.html#PostDocs">Postdoctoral Associates</a></li>
+            <li><a href="./people.html#GraduateStudents">Graduate Students</a></li>
+            <li><a href="./people.html#Alumni">Alumni</a></li>
+        </ul>
+            </li>
+
+            <li class="">
+                <a class="" href="./recruitment.html">Recruitment</a>
+            </li>
+                
+            <li class="  ">
+            <a class="" href="./papers.html">Publications</a>
+            </li>
+                
+            <li class="">
+            <a class="" href="./news.html">News</a>
+            </li>
+    
+            <li class="">
+            <a class="" href="./gallery.html">Gallery</a>
+            </li>
+    
+            <li class="">
+            <a class="" href="./journal-covers.html">Journal Covers</a>
+            </li>
+    
+            <li class="">
+            <a class="" href="./initiatives.html">Initiatives</a>
+            </li>
+    
+            <li class="last" style="margin-right:20px;">
+            <a class="" href="./others.html">Other</a>
+            </li>
+                
+        </ul>
+            </div>
+        </div>
+
+
+<!-- Container 1 - 202# Recruitment -->
+
+<div class="" style="margin-top:100px"> </div>
+<div class="container">
+<div class="card" style="margin-top:40px">
+
+<!-- Box Starts Here -->
+<div class="row">
+
+  <!-- Seminar Schedule Section -->
+  <h2 style="color:#7a0019; text-align: center;"><b> 2024 Recruitment for Prospective PhD Students </b></h2>
+  <hr>
+  <p style="text-align: justify; font-size: large;">
+    Our group sits at the intersection of multiple disciplines in research, which includes the integration of multiscale modeling, 
+    machine learning, and simulations of various systems. We actively collaborate with both experimental and computational experts. 
+    Currently, we are seeking <b>2-3 motivated students</b> to join our lab starting <b>Fall 2024</b>. 
+    This opportunity is open for PhD students in the Chemistry, Chemical Engineering, or Materials Science programs. 
+    <b>No prior computational experience is needed to join the lab!</b> More details are descibed in this <b><a href='./Data/projectDescriptions/2024-UMNSarupria-Ch-CEMS-NewStudent.pptx'>PPTX</a>.</b>
+  </p>
+
+  <p>&nbsp;</p> 
+  <p style="text-align: justify; font-size: large;">
+    We encourage you to schedule a 1-on-1 prospective meeting with Dr. Sarupria to learn more about the opportunities described above.
+    You can schedule a 30-minute meeting with her via this <b><a href='https://calendar.app.google/AZXgoVGF7G5aMNes7'>link</a></b>. If there are no
+    slots available, you can contact Dr. Sarupria via her <b><a href='mailto:sarupria@umn.edu'>email</a></b>. 
+  </p>
+
+  <p>&nbsp;</p> 
+  <p style="text-align: justify; font-size: large;">
+    You are also welcome to reach out to <b><a href='./people.html#GraduateStudents'>current students</a></b> in the lab 
+    to gain perspective on what a day-to-day research looks like. 
+  </p>
+
+  <hr>
+
+  
+  <!-- Box ends here -->
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+</body>
