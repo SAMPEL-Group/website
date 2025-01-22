@@ -1,9 +1,9 @@
 {
-    "workbench.colorTheme": "Noctis Minimus",
-    "workbench.preferredDarkColorTheme": "Noctis Minimus",
-    "workbench.preferredHighContrastColorTheme": "Noctis Minimus",
-    "workbench.preferredHighContrastLightColorTheme": "Noctis Minimus",
-    "workbench.preferredLightColorTheme": "Noctis Minimus",
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
+    "workbench.preferredHighContrastLightColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Default Dark Modern",
     "editor.fontSize": 14,
     "editor.fontWeight": "normal"
 }
