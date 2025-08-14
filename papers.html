@@ -17,6 +17,12 @@
   
 <style>
 
+a:link, a:visited {
+  color: #ffcc33;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 100%;
@@ -32,7 +38,9 @@
   opacity: 1;
 }
 
-.btn:hover {opacity: 0.6}
+.btn:hover{
+  opacity: 0.7;
+}
 
 /* sytle for dropdown menu */
 ul{
@@ -170,6 +178,49 @@ ul{
   <p style="color: #ffcc33; font-size:200%;margin-left:10px;margin-bottom:1px;"> 2025 </p>
   <hr style="border:2px solid #7a0019;border-radius: 1px;margin-right:20px;margin-top:1px;margin-left:10px;font-weight:bold">
  
+  <!-- Publication entry start -->
+  <div class="row">
+          
+    <div class="col-sm-4 col-md-4 col-lg-4 text center"><img src="Data/papers/2025_ChemRxiv_VGSS.png"; style="width:90%;margin:10px;"></img></div>
+    
+    <div class="col-sm-8 col-md-8 col-lg-8">
+    <div style="margin:10px">
+    <p style="font-weight: bold; color: #333333;font-size:150%;"> Solvent-Inclusive ML/MM Simulations: Assessments of Structural, Dynamical, and Thermodynamic Accuracy </p>
+        <span> Varun Gopal, Clara Kirkvold, Adrian Gordon, Jason Goodpaster, Sapna Sarupria. </span>
+        <!-- <span>21,</span>
+        <span>4121-4133,</span> -->
+        <span>(2025)</span>
+        <span>ChemRxiv.</span>
+        <p></p>
+        <p> DOI: 10.26434/chemrxiv-2025-dlr6c</p>
+          <br/>
+          <button class="btn" data-toggle="collapse" data-target="#demo2025_7">Read Abstract</button>
+          <button class="btn"><a href="https://chemrxiv.org/engage/chemrxiv/article-details/689a4bbba94eede154593e02", target="_blank">Go to full text</a></button>
+          <div id="demo2025_7" class="collapse" style="text-align:justify; margin-right:10px;">
+            Chemical reactions in solution are central to biological function, synthetic chemistry, and materials design.
+             Accurate modeling of these systems is essential for obtaining mechanistic insights, but remains 
+             computationally demanding. Hybrid machine-learned/molecular mechanics (ML/MM) simulations offer a 
+             promising compromise between quantum accuracy and computational efficiency. However, most existing 
+             ML/MM methods exclude solvent molecules from the ML region, limiting their ability to capture 
+             solvent-mediated reactivity. In this study, we introduce a solvent-inclusive ML/MM methodology that 
+             addresses this limitation. Our approach defines the ML and MM regions using a fixed spatial boundary, 
+             avoiding costly topology updates, and handles interactions across the boundary using a force-partitioning 
+             scheme. We evaluate our framework through simulations of bulk water and the solvent-mediated dissociation 
+             of formic acid using different ML region sizes. Our results reveal that structural and dynamical 
+             properties of bulk water are preserved for sufficiently large ML regions. Notably, we show that the 
+             choice of the potential energy surface representation for the ML and MM regions can affect these 
+             properties, especially at smaller ML region sizes. Our calculations of the free energy profiles for 
+             formic acid dissociation also show trends consistent with reference systems, but deviations are observed. 
+             We comment on potential reasons for these observations. Overall, our study highlights the promise of 
+             ML/MM approaches that are solvent-inclusive and provides directions for further development. <br/>
+          </div>
+      </div>
+    
+    </div>
+    </div>
+    <hr style="margin-top:1px;margin-left:10px;margin-bottom:1px;margin-right:10px;">
+  <!-- Publication entry end -->
+
   <!-- Publication entry start -->
   <div class="row">
           
