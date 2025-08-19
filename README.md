@@ -36,7 +36,7 @@ Please follow the steps below to update your bios on our website:
 
 1) Go to the google drive folder at [Sarupria-Group-UMN/GroupWebsite/Mugshots](https://drive.google.com/drive/folders/148bmEGCtNJNzhTItdV5cQJNAQECTiEB7?usp=drive_link) and upload your headshot there. (Preferably less than 2 MB) 
 2) Open [“Bios.docx”](https://docs.google.com/document/d/18CVBGpzZ4lasTAWZxzD6gBTiQcWBd0p1/edit?usp=drive_link&ouid=114755699523492321653&rtpof=true&sd=true) and add your information to the document (following the examples of other students)
-4) Once you have finished, please slack the webmasters accordingly
+3) Once you have finished, please slack the webmasters accordingly
 
 ---
 ### V. Research Updates
@@ -50,8 +50,9 @@ To update your research description or picture, please follow the steps below:
 
 ---
 ### VI. Guidelines for Webmasters ONLY
+
 1) Please make sure that you have a SSH Key all setup before you begin
-2) Clone the website’s Github repository to your local computer. You can do this by typing **"git clone git@github.com:SarupriaGroup/sarupriagroup.github.io.git"** on your terminal command line  
+2) Clone the website’s Github repository to your local computer. You can do this by typing `git clone git@github.com:SarupriaGroup/sarupriagroup.github.io.git` on your terminal command line  
 3) Make edits to the different htmls by using VS Code or any program you see fit
 4) Push updates to the “Development” branch first (to check with other webmasters and Dr. Sarupria)
 5) Send a short and concise update to the website channel in Slack
