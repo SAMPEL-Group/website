@@ -1,9 +1,9 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
-    "workbench.preferredDarkColorTheme": "Default Dark Modern",
-    "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
-    "workbench.preferredHighContrastLightColorTheme": "Default Dark Modern",
-    "workbench.preferredLightColorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.preferredDarkColorTheme": "Dark Modern",
+    "workbench.preferredHighContrastColorTheme": "Dark Modern",
+    "workbench.preferredHighContrastLightColorTheme": "Dark Modern",
+    "workbench.preferredLightColorTheme": "Dark Modern",
     "editor.fontSize": 14,
     "editor.fontWeight": "normal"
 }
