@@ -1,2 +1,6 @@
 .DS_Store
 */.DS_Store
+
+# Local/editor & transient upload artifacts
+.vscode/
+.tmp.driveupload/
